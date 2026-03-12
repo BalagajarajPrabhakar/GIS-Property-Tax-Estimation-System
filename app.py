@@ -181,7 +181,7 @@ with tab2:
             )
 
 
-            data.to_csv("data/properties.csv",index=False)
+            data.to_csv("properties.csv",index=False)
 
 
             st.success("Property Added Successfully")
@@ -191,3 +191,4 @@ with tab2:
 
 
             st.error("Please select a location first")
+
