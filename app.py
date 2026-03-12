@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 st.title("GIS Property Tax Estimation System")
 
 
-data=pd.read_csv("data/properties.csv")
+data=pd.read_csv("properties.csv")
 
 
 tab1,tab2=st.tabs(["Estimate Tax from Map","Add New Property"])
@@ -188,5 +188,6 @@ with tab2:
 
 
         else:
+
 
             st.error("Please select a location first")
